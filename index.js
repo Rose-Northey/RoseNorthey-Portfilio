@@ -36,3 +36,9 @@ const headerLogoConatiner = document.querySelector('.header__logo-container')
 headerLogoConatiner.addEventListener('click', () => {
   location.href = 'index.html'
 })
+
+contactForm.addEventListener('submit', function (event) {
+  setTimeout(() => {
+    contactForm.reset();
+  }, 500);
+});
