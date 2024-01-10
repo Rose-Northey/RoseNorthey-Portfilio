@@ -3,7 +3,7 @@
   width: 100%;
   z-index: 1000;
   background: #000;
-  background: #fff;
+  background: #f9e1e0;
   box-shadow: 0 10px 100px rgba(0, 0, 0, 0.1);
 
   &__content {
@@ -20,7 +20,7 @@
     display: flex;
     align-items: center;
     cursor: pointer;
-    color: #333;
+    color: #254e4c;
     transition: color .3s;
 
     &:hover {
@@ -64,7 +64,7 @@
     padding: 2.2rem 3rem;
     display: inline-block;
     font-size: 1.6rem;
-    color: #333;
+    color: #254e4c;
     text-transform: uppercase;
     letter-spacing: 1px;
     font-weight: 700;
@@ -97,7 +97,7 @@
   }
 
   &__sm-menu {
-    background: #fff;
+    background: #f9e1e0;
     position: absolute;
     width: 100%;
     top: 100%;
@@ -124,7 +124,7 @@
       text-decoration: none;
       padding: 2.5rem 3rem;
       font-size: 1.6rem;
-      color: #333;
+      color: #254e4c;
       text-align: right;
       border-bottom: 1px solid #eee;
       font-weight: 700;
